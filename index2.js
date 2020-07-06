@@ -112,7 +112,6 @@ function formateDate(date) {
   function getCurrentPosition() {
     navigator.geolocation.getCurrentPosition(showPosition);
   }
-  
   let button = document.querySelector("button");
   button.addEventListener("click", getCurrentPosition);
   
